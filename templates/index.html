@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content%}
+
+<div class="container mt-5 pt-4">
+        <h1 class="">Hola mundo</h1>
+        <h2>{{titulo}}</h2>
+        {% for i in lista %}
+        <p>{{i}}</p>
+        {%endfor%}    
+</div>
+{%endblock%}
